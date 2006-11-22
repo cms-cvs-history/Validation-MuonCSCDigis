@@ -1,0 +1,7 @@
+module cscDigiValidation = CSCDigiValidation {
+  InputTag wireDigiTag       = muonCSCDigis:MuonCSCWireDigi
+  InputTag stripDigiTag      = muonCSCDigis:MuonCSCStripDigi
+  InputTag comparatorDigiTag = muonCSCDigis:MuonCSCComparatorDigi
+  string outputFile = "CSCDigiValidation.root"
+}
+
