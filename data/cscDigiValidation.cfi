@@ -3,5 +3,6 @@ module cscDigiValidation = CSCDigiValidation {
   InputTag stripDigiTag      = muonCSCDigis:MuonCSCStripDigi
   InputTag comparatorDigiTag = muonCSCDigis:MuonCSCComparatorDigi
   string outputFile = "CSCDigiValidation.root"
+  bool doSim = false
 }
 
