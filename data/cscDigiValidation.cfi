@@ -1,5 +1,5 @@
 module cscDigiValidation = CSCDigiValidation {
-  InputTag simHitsTag = g4SimHitsMuonCSCHits
+  InputTag simHitsTag = mix:g4SimHitsMuonCSCHits
   InputTag wireDigiTag       = simMuonCSCDigis:MuonCSCWireDigi
   InputTag stripDigiTag      = simMuonCSCDigis:MuonCSCStripDigi
   InputTag comparatorDigiTag = simMuonCSCDigis:MuonCSCComparatorDigi
