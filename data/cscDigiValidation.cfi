@@ -1,9 +1,0 @@
-module cscDigiValidation = CSCDigiValidation {
-  InputTag simHitsTag = mix:g4SimHitsMuonCSCHits
-  InputTag wireDigiTag       = simMuonCSCDigis:MuonCSCWireDigi
-  InputTag stripDigiTag      = simMuonCSCDigis:MuonCSCStripDigi
-  InputTag comparatorDigiTag = simMuonCSCDigis:MuonCSCComparatorDigi
-  string outputFile = "CSCDigiValidation.root"
-  bool doSim = false
-}
-
